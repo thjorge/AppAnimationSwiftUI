@@ -13,6 +13,8 @@
 		0423CBFE25DAC004001108FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0423CBFD25DAC004001108FC /* Assets.xcassets */; };
 		0423CC0125DAC004001108FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0423CC0025DAC004001108FC /* Preview Assets.xcassets */; };
 		0423CC0425DAC004001108FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0423CC0225DAC004001108FC /* LaunchScreen.storyboard */; };
+		752F97002614D1E50081EE49 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F96FF2614D1E50081EE49 /* MemoryGame.swift */; };
+		752F97032614D7030081EE49 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752F97022614D7030081EE49 /* EmojiMemoryGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		0423CC0025DAC004001108FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0423CC0325DAC004001108FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0423CC0525DAC004001108FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752F96FF2614D1E50081EE49 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		752F97022614D7030081EE49 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				0423CBF725DABFFE001108FC /* AppDelegate.swift */,
 				0423CBF925DABFFE001108FC /* SceneDelegate.swift */,
 				0423CBFB25DABFFE001108FC /* ContentView.swift */,
+				752F96FF2614D1E50081EE49 /* MemoryGame.swift */,
+				752F97022614D7030081EE49 /* EmojiMemoryGame.swift */,
 				0423CBFD25DAC004001108FC /* Assets.xcassets */,
 				0423CC0225DAC004001108FC /* LaunchScreen.storyboard */,
 				0423CC0525DAC004001108FC /* Info.plist */,
@@ -102,7 +108,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "CS193p TJ";
 				TargetAttributes = {
 					0423CBF325DABFFE001108FC = {
@@ -148,7 +154,9 @@
 			files = (
 				0423CBF825DABFFE001108FC /* AppDelegate.swift in Sources */,
 				0423CBFA25DABFFE001108FC /* SceneDelegate.swift in Sources */,
+				752F97002614D1E50081EE49 /* MemoryGame.swift in Sources */,
 				0423CBFC25DABFFE001108FC /* ContentView.swift in Sources */,
+				752F97032614D7030081EE49 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
